@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<style>
+    @import url(https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+    @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: -400%; }
+    }
+    div.figure { 
+        margin: 0; background: #0e1b36;
+        font-family: Bebas Neue, cursive;
+        font-weight: 100;
+    }
+    div#captioned-gallery { 
+        width: 100%; overflow: hidden; 
+    }
+    div.figure_slider { 
+        position: relative; width: 500%;
+        font-size: 0; animation: 30s slidy infinite; 
+        margin: 0; background: #0e1b36;
+        font-family: Bebas Neue, cursive;
+        font-weight: 100;
+    }
+    div.figure_slider_figure { 
+        width: 20%; height: auto;
+        display: inline-block;  position: inherit;
+        margin: 0; background: #0e1b36;
+        font-family: Bebas Neue, cursive;
+        font-weight: 100;
+    }
+    img.figure_slider_img { width: 100%; height: 920px; }
+    div.figure_slider_figure_figcaption { 
+        position: absolute; bottom: 0;
+        background: rgba(0,0,0,0.4);
+        color: #fff; width: 100%;
+        font-size: 2rem; padding: .6rem;
+        margin: 0; background: #0e1b36;
+        font-family: Bebas Neue, cursive;
+        font-weight: 100;
+    }
+</style>
+<div id="captioned-gallery">
+    <div class="figure_slider">
+        <div class="figure_slider_figure">
+            <img class="figure_slider_img" src="https://media-exp1.licdn.com/dms/image/C5603AQGFqZZKmEiaLQ/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=HJh7MZsCvunkI3JrZDrBZyA-QAQ-sinjCoMHuUdPIIM?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=300&amp;w=940" alt="">
+            <div class="figure_slider_figure_figcaption">Lauri Dafner</div>
+        </div>
+        <div class="figure_slider_figure">
+            <img class="figure_slider_img" src="https://media-exp1.licdn.com/dms/image/C4E03AQE9CEU2hKtugg/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=K3K8zVsIn4DbQ_K1_rt-1r8Kcv1ZbY0-LqnJO91gKco?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=300&amp;w=940" alt="">
+            <div class="figure_slider_figure_figcaption">Tim Loftus</div>
+        </div>
+        <div class="figure_slider_figure">
+            <img class="figure_slider_img" src="https://media-exp1.licdn.com/dms/image/C4E03AQGndu5BPAkz7w/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=0bfXEfrsCh_SZo_Qgb519RP0xAcg1xNuj0WMRqkZ-T4?itok=vzlR74T9?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=300&amp;w=940" alt="">
+            <div class="figure_slider_figure_figcaption">Lakeisha Coleman</div>
+        </div>
+        <div class="figure_slider_figure">
+            <img class="figure_slider_img" src="https://media-exp1.licdn.com/dms/image/C4E03AQFiTTpCudnJNg/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=7go8C5-F1mAUn1MYGeyhwKN8GgNLFeNzprW-l_F-Nbk?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=300&amp;w=940" alt="">
+            <div class="figure_slider_figure_figcaption">Kerri Rasmussen</div>
+        </div>
+    </div>
+</div>
+</html>
